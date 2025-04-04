@@ -36,7 +36,7 @@ if(!empty($_POST)) {
     }
        
     # Data validation : had atas
-    if(strlen($notel(< 10)){
+    if(strlen($notel(< 10){
         die("<script>
             alert('No Telefon Kurang 10 Digit');
             location.href='signup.php';
